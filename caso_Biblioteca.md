@@ -1,3 +1,9 @@
+## CASO BIBLIOTECA 
+
+### Hecho por: Yura Hernandez y Juan José Bolivar
+
+```mermaid
+
 classDiagram
     class Biblioteca {
         - Libro: catalogo_libros[]
@@ -38,3 +44,5 @@ classDiagram
     Biblioteca  *--  Lector : tiene
     Lector  -->  Prestamo : realiza
     Libro  -->  Prestamo : es parte de
+
+```
